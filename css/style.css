@@ -1,0 +1,210 @@
+body { 
+    margin: 0px; 
+    background-color: black;
+    
+}
+
+#scoreboard {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    color: #fff;
+    font-family: Tahoma;
+}
+
+#score {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 120px;
+    text-shadow: 0 0 30px #2362DF;
+}
+
+#pongGame{
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    color: #fff;
+    font-family: Tahoma;
+}
+
+#pong{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 110px;
+    text-shadow: 0 0 30px #2362DF;
+    text-decoration: underline overline white 8px;
+}
+
+
+#keyControls {
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Brush Script MT', cursive;
+    color: #fff;
+}
+
+#playerLeft {
+    position: absolute;
+    top: 70%;
+    left: 9%;
+    transform: translate(-50%,-50%);
+    font-size: 36px;
+    text-shadow: 0 0 50px #ffffff;
+    text-decoration: underline white;
+}
+
+#playerRight {
+    position: absolute;
+    top: 70%;
+    left: 91%;
+    transform: translate(-50%,-50%);
+    font-size: 36px;
+    text-shadow: 0 0 50px #ffffff;
+    text-decoration: underline white;
+}
+
+#keyLeftUp{
+    position: absolute;
+    top: 75%;
+    left: 9%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;  
+}
+
+#keyLeftDown{
+    position: absolute;
+    top: 79%;
+    left: 9%;
+    transform: translate(-50%,-50%);   
+    font-size: 20px;        
+}
+
+#keyRighttUp{
+    position: absolute;
+    top: 75%;
+    left: 91%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;  
+}
+
+#keyRightDown{
+    position: absolute;
+    top: 79%;
+    left: 91%;
+    transform: translate(-50%,-50%);   
+    font-size: 20px;        
+}
+
+#buttonStart {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+#buttonPlayer{
+    position: absolute;
+    top: 43%;
+    width: 100%;
+    text-align: center;
+}
+
+#buttonStartMenu{
+    width: 200px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    border: 2px solid black;
+    color: black;
+    background-color: #2BB742;
+}
+
+
+input:checked + #buttonStartMenu{
+    background-color: #48B296;
+}
+
+#win{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    text-align: center;
+    color: black;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;  
+    text-shadow: 0 0 10px #2362DF;
+    border: 5px solid #2362DF;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+}
+
+#myAudio{
+    position: absolute;
+    top: 10%;
+    width: 15%;
+    text-align: center;
+    visibility: hidden;
+}
+
+#buttonMusic {
+    position: absolute;
+    top: 51%;
+    width: 100%;
+    text-align: center;
+}
+
+#buttonMusicOffOn{
+    width: 200px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    border: 2px solid black;
+    color: black;
+    background-color: #2BB742;
+}
+
+#gameControlsMusic{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+}
+#buttonMusicOffOn2{
+    position: absolute;
+    right: 0%;
+    transform: translate(-50%,-50%);   
+    font-size: 17px;
+    visibility: hidden;   
+}
+
+#gameControlsNewGame{
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+
+}
+
+#buttonNewGame2{
+    position: absolute;
+    right: -0.5%;
+    transform: translate(-50%,-50%);   
+    font-size: 17px; 
+    visibility: hidden;
+}
